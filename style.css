@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+:root{
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.telefono_meja{
+    /* background-color: rgb(255, 255, 255); */
+    width: 400px;
+    aspect-ratio: 16 / 9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    margin: 40px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.imagen_vaca{
+    width: 85%;
+}
+
+.hr_principal{
+    width: 100%;
+    height: 3px;
+    margin: 60px;
+    background-color: #000;
+}
+
+.seccion_uno{
+    background-image: url(/img/cuando\ nos\ conocemos.jpeg);
+    width: 95%;
+    height: 800px;
+
+    background-repeat: no-repeat;
+    background-position-y: -1050px;
+    background-position-x: -100px;
+}
+
+.seccion_uno_derecha_titulo{
+    background-color: rgb(187, 60, 60);
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.seccion_uno_derecha_texto{
+    background-color: rgb(187, 60, 60);
+    width: 50%;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.seccion_uno_span{
+    background-color: rgb(214, 196, 31);
+    color: #2b2b2b;
+    padding: 3px 6px;
+    border-radius: 5px;
+    position: relative;
+    top: -57px;
+    left: 31px;
+}
+/* --------------------------------------------------------------------- */
+/* SECCION 2 */
+.seccion_dos{
+    background-image: url(/img/casa\ karina.jpeg);
+    width: 100%;
+    height: 800px;
+
+    background-repeat: no-repeat;
+    background-position-x: -325px;
+    background-position-y: -500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_dos_h21, 
+.seccion_dos_h22,
+.seccion_dos_h23{
+    background-color: #BA6814;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.seccion_dos_h22{
+    width: 300px;
+}
+
+.seccion_dos_h23{
+    text-align: right;
+    width: 300px;
+
+    align-self: end;
+    position: relative;
+    top: 230px;
+}
+/* --------------------------------------------------------- */
+/* SECCION 3 */
+
+.seccion_tres{
+    background-image: url(/img/primer\ cumpleanos\ \(7\).jpeg);
+    width: 100%;
+    height: 550px;
+
+    background-repeat: no-repeat;
+    background-position-x: -250px;
+    background-position-y: 20px;
+    background-size: 900px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_tres_h21,
+.seccion_tres_h22{
+    background-color: #777D67;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.seccion_tres_h22{
+    position: relative;
+    top: 225px;
+}
+/* ---------------------------------------------------------- */
+/* SECCION 4 */
+
+.seccion_cuatro{
+    background-image: url(/img/viajes\ \(1\).jpeg);
+    width: 100%;
+    height: 660px;
+
+    background-repeat: no-repeat;
+    background-position-x: -375px;
+    background-position-y: -350px;
+    background-size: 900px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_cuatro_h21{
+    background-color: #FED7B8;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+/* -------------------------------------------------- */
+/* SECCION 5 */
+.seccion_cinco{
+    background-image: url(/img/primer\ cumpleanos\ \(1\).jpeg);
+    width: 100%;
+    height: 660px;
+
+    background-repeat: no-repeat;
+    background-position-x: -0px;
+    background-position-y: -100px;
+    background-size: 600px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* --------------------------------------------------------------------- */
+/* SECCION 6 */
+.seccion_seis{
+    background-image: url(/img/nos\ tenemos\ \(2\).jpeg);
+    width: 100%;
+    height: 660px;
+
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: -50px;
+    background-size: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_seis_h22{
+    background-color: #FED7B8;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+    top: 290px;
+}
+/* ------------------------------------------------- */
+/* SECCION 7 */
+.seccion_siete{
+    background-image: url(/img/momentos\ \(11\).jpeg);
+    width: 100%;
+    height: 660px;
+
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: -50px;
+    background-size: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.img_finales{
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.img_finales_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* ------------------------------------------------------------------- */
+/* SECCION 8 */
+.seccion_ocho{
+    background-image: url(/img/final.jpeg);
+    /* background-color: red; */
+    width: 100%;
+    height: 660px;
+
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: 100%;
+    background-position: left;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_ocho_titulo,
+.seccion_ocho_texto{
+    background-color: #6E4040;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.seccion_ocho_titulo{
+    position: relative;
+    top: 50px;
+}
+
+.seccion_ocho_texto{
+    position: relative;
+    top: 290px;
+}
+/* -------------------------------------------------------- */
+
+@keyframes show{
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+div,
+img{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+
+}
+
+/* div,img{
+    position: sticky;
+    top: 0;
+} */
