@@ -54,8 +54,8 @@ img{
     height: 800px;
 
     background-repeat: no-repeat;
-    background-position-y: -1050px;
-    background-position-x: -100px;
+    /* background-position-y: -1050px; */
+    /* background-position-x: -100px; */
 }
 
 .seccion_uno_derecha_titulo{
